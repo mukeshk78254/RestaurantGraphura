@@ -6,9 +6,8 @@
 .env.production
 .env.development
 
-# README files (hiding project documentation)
-README.md
-**/README.md
+# README files (hiding sensitive documentation in subdirectories)
+restaurant/**/README.md
 
 # Dependencies
 node_modules/
