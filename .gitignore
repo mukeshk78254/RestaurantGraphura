@@ -6,6 +6,10 @@
 .env.production
 .env.development
 
+# README files (hiding project documentation)
+README.md
+**/README.md
+
 # Dependencies
 node_modules/
 package-lock.json
